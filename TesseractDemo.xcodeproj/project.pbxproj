@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D12ABAAFB70393A3264F1C5 /* libPods-TesseractDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 426F74AA1E99C8E3D8F7528C /* libPods-TesseractDemo.a */; };
+		406887F31E4B6DDA0063F8D2 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 406887F21E4B6DDA0063F8D2 /* tessdata */; };
+		406887F51E4B75B10063F8D2 /* image_sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 406887F41E4B75B10063F8D2 /* image_sample.jpg */; };
+		406D557B1E4C28670031D964 /* image_sample_down_mirrored.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 406D55731E4C28670031D964 /* image_sample_down_mirrored.jpg */; };
+		406D557C1E4C28670031D964 /* image_sample_down.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 406D55741E4C28670031D964 /* image_sample_down.jpg */; };
+		406D557D1E4C28670031D964 /* image_sample_left_mirrored.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 406D55751E4C28670031D964 /* image_sample_left_mirrored.jpg */; };
+		406D557E1E4C28670031D964 /* image_sample_left.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 406D55761E4C28670031D964 /* image_sample_left.jpg */; };
+		406D557F1E4C28670031D964 /* image_sample_right_mirrored.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 406D55771E4C28670031D964 /* image_sample_right_mirrored.jpg */; };
+		406D55801E4C28670031D964 /* image_sample_right.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 406D55781E4C28670031D964 /* image_sample_right.jpg */; };
+		406D55811E4C28670031D964 /* image_sample_tr.png in Resources */ = {isa = PBXBuildFile; fileRef = 406D55791E4C28670031D964 /* image_sample_tr.png */; };
+		406D55821E4C28670031D964 /* image_sample_up_mirrored.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 406D557A1E4C28670031D964 /* image_sample_up_mirrored.jpg */; };
+		406D55851E4C293B0031D964 /* icon_Back.png in Resources */ = {isa = PBXBuildFile; fileRef = 406D55831E4C293B0031D964 /* icon_Back.png */; };
+		406D55861E4C293B0031D964 /* icon_Next.png in Resources */ = {isa = PBXBuildFile; fileRef = 406D55841E4C293B0031D964 /* icon_Next.png */; };
+		406D55881E4C50920031D964 /* japanese_mandatory.gif in Resources */ = {isa = PBXBuildFile; fileRef = 406D55871E4C50920031D964 /* japanese_mandatory.gif */; };
+		406D558A1E4C533D0031D964 /* tessdata-jpn in Resources */ = {isa = PBXBuildFile; fileRef = 406D55891E4C533D0031D964 /* tessdata-jpn */; };
+		40817C921E4A26B300381A08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40817C911E4A26B300381A08 /* main.m */; };
+		40817C951E4A26B300381A08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40817C941E4A26B300381A08 /* AppDelegate.m */; };
+		40817C981E4A26B300381A08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40817C971E4A26B300381A08 /* ViewController.m */; };
+		40817C9B1E4A26B300381A08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40817C991E4A26B300381A08 /* Main.storyboard */; };
+		40817C9D1E4A26B300381A08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40817C9C1E4A26B300381A08 /* Assets.xcassets */; };
+		40817CA01E4A26B300381A08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40817C9E1E4A26B300381A08 /* LaunchScreen.storyboard */; };
+		40817CAC1E4A287100381A08 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 40817CAB1E4A287100381A08 /* libz.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		376B58FE8BFF143ABAE919B9 /* Pods-TesseractDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TesseractDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TesseractDemo/Pods-TesseractDemo.release.xcconfig"; sourceTree = "<group>"; };
+		406887F21E4B6DDA0063F8D2 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = SOURCE_ROOT; };
+		406887F41E4B75B10063F8D2 /* image_sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image_sample.jpg; path = Resource/image_sample.jpg; sourceTree = "<group>"; };
+		406887F61E4B7BEC0063F8D2 /* libTesseractOCRiOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTesseractOCRiOS.a; path = "../../Library/Developer/Xcode/DerivedData/TesseractDemo-gzfcadujhiqbhpdjnsizgrvrxzqp/Build/Products/Debug-iphonesimulator/TesseractOCRiOS/libTesseractOCRiOS.a"; sourceTree = "<group>"; };
+		406D55731E4C28670031D964 /* image_sample_down_mirrored.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image_sample_down_mirrored.jpg; path = Resource/image_sample_down_mirrored.jpg; sourceTree = "<group>"; };
+		406D55741E4C28670031D964 /* image_sample_down.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image_sample_down.jpg; path = Resource/image_sample_down.jpg; sourceTree = "<group>"; };
+		406D55751E4C28670031D964 /* image_sample_left_mirrored.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image_sample_left_mirrored.jpg; path = Resource/image_sample_left_mirrored.jpg; sourceTree = "<group>"; };
+		406D55761E4C28670031D964 /* image_sample_left.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image_sample_left.jpg; path = Resource/image_sample_left.jpg; sourceTree = "<group>"; };
+		406D55771E4C28670031D964 /* image_sample_right_mirrored.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image_sample_right_mirrored.jpg; path = Resource/image_sample_right_mirrored.jpg; sourceTree = "<group>"; };
+		406D55781E4C28670031D964 /* image_sample_right.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image_sample_right.jpg; path = Resource/image_sample_right.jpg; sourceTree = "<group>"; };
+		406D55791E4C28670031D964 /* image_sample_tr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image_sample_tr.png; path = Resource/image_sample_tr.png; sourceTree = "<group>"; };
+		406D557A1E4C28670031D964 /* image_sample_up_mirrored.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image_sample_up_mirrored.jpg; path = Resource/image_sample_up_mirrored.jpg; sourceTree = "<group>"; };
+		406D55831E4C293B0031D964 /* icon_Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_Back.png; path = Resource/icon_Back.png; sourceTree = "<group>"; };
+		406D55841E4C293B0031D964 /* icon_Next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_Next.png; path = Resource/icon_Next.png; sourceTree = "<group>"; };
+		406D55871E4C50920031D964 /* japanese_mandatory.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = japanese_mandatory.gif; path = Resource/japanese_mandatory.gif; sourceTree = "<group>"; };
+		406D55891E4C533D0031D964 /* tessdata-jpn */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "tessdata-jpn"; sourceTree = SOURCE_ROOT; };
+		40817C8D1E4A26B300381A08 /* TesseractDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TesseractDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40817C911E4A26B300381A08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40817C931E4A26B300381A08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		40817C941E4A26B300381A08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		40817C961E4A26B300381A08 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		40817C971E4A26B300381A08 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		40817C9A1E4A26B300381A08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40817C9C1E4A26B300381A08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40817C9F1E4A26B300381A08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40817CA11E4A26B300381A08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40817CA81E4A281900381A08 /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
+		40817CAB1E4A287100381A08 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		426F74AA1E99C8E3D8F7528C /* libPods-TesseractDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TesseractDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F88213A996A3C6F7DE5488A0 /* Pods-TesseractDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TesseractDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TesseractDemo/Pods-TesseractDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40817C8A1E4A26B300381A08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40817CAC1E4A287100381A08 /* libz.tbd in Frameworks */,
+				0D12ABAAFB70393A3264F1C5 /* libPods-TesseractDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09158FD35535EB7DC7BEF69E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F88213A996A3C6F7DE5488A0 /* Pods-TesseractDemo.debug.xcconfig */,
+				376B58FE8BFF143ABAE919B9 /* Pods-TesseractDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		406D55721E4C27BA0031D964 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				406D55871E4C50920031D964 /* japanese_mandatory.gif */,
+				406D55831E4C293B0031D964 /* icon_Back.png */,
+				406D55841E4C293B0031D964 /* icon_Next.png */,
+				406D55731E4C28670031D964 /* image_sample_down_mirrored.jpg */,
+				406D55741E4C28670031D964 /* image_sample_down.jpg */,
+				406D55751E4C28670031D964 /* image_sample_left_mirrored.jpg */,
+				406D55761E4C28670031D964 /* image_sample_left.jpg */,
+				406D55771E4C28670031D964 /* image_sample_right_mirrored.jpg */,
+				406D55781E4C28670031D964 /* image_sample_right.jpg */,
+				406D55791E4C28670031D964 /* image_sample_tr.png */,
+				406D557A1E4C28670031D964 /* image_sample_up_mirrored.jpg */,
+				406887F41E4B75B10063F8D2 /* image_sample.jpg */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		40817C841E4A26B300381A08 = {
+			isa = PBXGroup;
+			children = (
+				40817C8F1E4A26B300381A08 /* TesseractDemo */,
+				40817C8E1E4A26B300381A08 /* Products */,
+				40817CA71E4A281900381A08 /* Frameworks */,
+				09158FD35535EB7DC7BEF69E /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		40817C8E1E4A26B300381A08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40817C8D1E4A26B300381A08 /* TesseractDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40817C8F1E4A26B300381A08 /* TesseractDemo */ = {
+			isa = PBXGroup;
+			children = (
+				406D55891E4C533D0031D964 /* tessdata-jpn */,
+				406D55721E4C27BA0031D964 /* Resource */,
+				406887F21E4B6DDA0063F8D2 /* tessdata */,
+				40817C931E4A26B300381A08 /* AppDelegate.h */,
+				40817C941E4A26B300381A08 /* AppDelegate.m */,
+				40817C961E4A26B300381A08 /* ViewController.h */,
+				40817C971E4A26B300381A08 /* ViewController.m */,
+				40817C991E4A26B300381A08 /* Main.storyboard */,
+				40817C9C1E4A26B300381A08 /* Assets.xcassets */,
+				40817C9E1E4A26B300381A08 /* LaunchScreen.storyboard */,
+				40817CA11E4A26B300381A08 /* Info.plist */,
+				40817C901E4A26B300381A08 /* Supporting Files */,
+			);
+			path = TesseractDemo;
+			sourceTree = "<group>";
+		};
+		40817C901E4A26B300381A08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40817C911E4A26B300381A08 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40817CA71E4A281900381A08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				406887F61E4B7BEC0063F8D2 /* libTesseractOCRiOS.a */,
+				40817CAB1E4A287100381A08 /* libz.tbd */,
+				40817CA81E4A281900381A08 /* libz.1.dylib */,
+				426F74AA1E99C8E3D8F7528C /* libPods-TesseractDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40817C8C1E4A26B300381A08 /* TesseractDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40817CA41E4A26B300381A08 /* Build configuration list for PBXNativeTarget "TesseractDemo" */;
+			buildPhases = (
+				FB36464BB51C3AA8C0CF50CA /* [CP] Check Pods Manifest.lock */,
+				40817C891E4A26B300381A08 /* Sources */,
+				40817C8A1E4A26B300381A08 /* Frameworks */,
+				40817C8B1E4A26B300381A08 /* Resources */,
+				224450798F4F5A55C759DFB8 /* [CP] Embed Pods Frameworks */,
+				54F45055298F9497DE42C220 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TesseractDemo;
+			productName = TesseractDemo;
+			productReference = 40817C8D1E4A26B300381A08 /* TesseractDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40817C851E4A26B300381A08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Nguyen Hien";
+				TargetAttributes = {
+					40817C8C1E4A26B300381A08 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 40817C881E4A26B300381A08 /* Build configuration list for PBXProject "TesseractDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40817C841E4A26B300381A08;
+			productRefGroup = 40817C8E1E4A26B300381A08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40817C8C1E4A26B300381A08 /* TesseractDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40817C8B1E4A26B300381A08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40817CA01E4A26B300381A08 /* LaunchScreen.storyboard in Resources */,
+				406D55851E4C293B0031D964 /* icon_Back.png in Resources */,
+				406887F51E4B75B10063F8D2 /* image_sample.jpg in Resources */,
+				406D557F1E4C28670031D964 /* image_sample_right_mirrored.jpg in Resources */,
+				406887F31E4B6DDA0063F8D2 /* tessdata in Resources */,
+				406D558A1E4C533D0031D964 /* tessdata-jpn in Resources */,
+				406D55821E4C28670031D964 /* image_sample_up_mirrored.jpg in Resources */,
+				40817C9D1E4A26B300381A08 /* Assets.xcassets in Resources */,
+				40817C9B1E4A26B300381A08 /* Main.storyboard in Resources */,
+				406D557B1E4C28670031D964 /* image_sample_down_mirrored.jpg in Resources */,
+				406D557D1E4C28670031D964 /* image_sample_left_mirrored.jpg in Resources */,
+				406D55861E4C293B0031D964 /* icon_Next.png in Resources */,
+				406D557C1E4C28670031D964 /* image_sample_down.jpg in Resources */,
+				406D557E1E4C28670031D964 /* image_sample_left.jpg in Resources */,
+				406D55801E4C28670031D964 /* image_sample_right.jpg in Resources */,
+				406D55811E4C28670031D964 /* image_sample_tr.png in Resources */,
+				406D55881E4C50920031D964 /* japanese_mandatory.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		224450798F4F5A55C759DFB8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TesseractDemo/Pods-TesseractDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54F45055298F9497DE42C220 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TesseractDemo/Pods-TesseractDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB36464BB51C3AA8C0CF50CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40817C891E4A26B300381A08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40817C981E4A26B300381A08 /* ViewController.m in Sources */,
+				40817C951E4A26B300381A08 /* AppDelegate.m in Sources */,
+				40817C921E4A26B300381A08 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		40817C991E4A26B300381A08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40817C9A1E4A26B300381A08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40817C9E1E4A26B300381A08 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40817C9F1E4A26B300381A08 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40817CA21E4A26B300381A08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40817CA31E4A26B300381A08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40817CA51E4A26B300381A08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F88213A996A3C6F7DE5488A0 /* Pods-TesseractDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = TesseractDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nguyenhien.TesseractDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		40817CA61E4A26B300381A08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 376B58FE8BFF143ABAE919B9 /* Pods-TesseractDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = TesseractDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nguyenhien.TesseractDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40817C881E4A26B300381A08 /* Build configuration list for PBXProject "TesseractDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40817CA21E4A26B300381A08 /* Debug */,
+				40817CA31E4A26B300381A08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40817CA41E4A26B300381A08 /* Build configuration list for PBXNativeTarget "TesseractDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40817CA51E4A26B300381A08 /* Debug */,
+				40817CA61E4A26B300381A08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40817C851E4A26B300381A08 /* Project object */;
+}

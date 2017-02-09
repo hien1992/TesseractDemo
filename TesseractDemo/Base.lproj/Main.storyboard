@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="V3J-B5-fXO">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fpN-AL-d60">
+                                <rect key="frame" x="66" y="99" width="243" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="JBO-3h-IRq"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hK0-eo-KWH">
+                                <rect key="frame" x="137" y="311" width="100" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="4ov-gS-DwF"/>
+                                    <constraint firstAttribute="height" constant="50" id="DMU-9k-a98"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Scan"/>
+                                <connections>
+                                    <action selector="StartScan:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hwp-tc-nws"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jjG-uo-S7J">
+                                <rect key="frame" x="317" y="143" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="7jP-JH-uPu"/>
+                                    <constraint firstAttribute="height" constant="40" id="kf8-u3-J1M"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="icon_Next.png"/>
+                                <connections>
+                                    <action selector="NextImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dOa-MD-yKw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yuQ-bD-mPu">
+                                <rect key="frame" x="18" y="143" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="grJ-7e-tg4"/>
+                                    <constraint firstAttribute="width" constant="40" id="n2c-zt-f3o"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="icon_Back.png"/>
+                                <connections>
+                                    <action selector="PreviousImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LCF-xL-wHw"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uha-kj-3Wl">
+                                <rect key="frame" x="26" y="371" width="323" height="276"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="Uha-kj-3Wl" secondAttribute="trailing" constant="10" id="F6H-dP-v7Q"/>
+                            <constraint firstItem="jjG-uo-S7J" firstAttribute="centerY" secondItem="fpN-AL-d60" secondAttribute="centerY" id="H2b-EK-ywe"/>
+                            <constraint firstItem="yuQ-bD-mPu" firstAttribute="centerY" secondItem="fpN-AL-d60" secondAttribute="centerY" id="LsA-KU-0bv"/>
+                            <constraint firstItem="fpN-AL-d60" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="Mdg-MI-YXf"/>
+                            <constraint firstItem="hK0-eo-KWH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="a0C-KH-Mmv"/>
+                            <constraint firstItem="fpN-AL-d60" firstAttribute="leading" secondItem="yuQ-bD-mPu" secondAttribute="trailing" constant="8" id="b3g-EU-CwE"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Uha-kj-3Wl" secondAttribute="bottom" constant="20" id="fy4-ky-cvg"/>
+                            <constraint firstItem="Uha-kj-3Wl" firstAttribute="top" secondItem="hK0-eo-KWH" secondAttribute="bottom" constant="10" id="qSk-8p-yAx"/>
+                            <constraint firstItem="jjG-uo-S7J" firstAttribute="leading" secondItem="fpN-AL-d60" secondAttribute="trailing" constant="8" id="qXi-27-WRa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fpN-AL-d60" secondAttribute="trailing" constant="50" id="rsS-jx-rYD"/>
+                            <constraint firstItem="fpN-AL-d60" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="35" id="uZO-ug-4tC"/>
+                            <constraint firstItem="Uha-kj-3Wl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="xA8-gN-Ieg"/>
+                            <constraint firstItem="hK0-eo-KWH" firstAttribute="top" secondItem="fpN-AL-d60" secondAttribute="bottom" constant="84" id="yQr-Ln-SX0"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="XP4-FZ-ORt"/>
+                    <connections>
+                        <outlet property="ResultTextView" destination="Uha-kj-3Wl" id="xLc-t5-V6l"/>
+                        <outlet property="ScanImage" destination="fpN-AL-d60" id="qrM-RO-ARl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="136.28185907046478"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="3GV-LY-C5l">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="V3J-B5-fXO" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="bNY-jQ-RUY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="mSj-wV-6mT"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vSz-Bs-rMK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="136.28185907046478"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon_Back.png" width="64" height="64"/>
+        <image name="icon_Next.png" width="64" height="64"/>
+    </resources>
+</document>
